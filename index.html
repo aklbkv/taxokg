@@ -2,64 +2,490 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Taxo</title>
-	<link rel="stylesheet" href="css/style.css">
-	<link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
-	<script
-  src="https://code.jquery.com/jquery-3.3.1.js"></script>
-	<script src="js/script.js"></script>
-</head>
-<body >
-	<header id="header">
-			<nav>
-				<div class="user">
-					<img src="img/boy.svg" width="50px" height="50px" s alt="">
-				</div>
-				<div class="logo"><img width="100px" height="60px" src="img/squares.svg" alt=""></div>
-				
-				<div class="btn-right">
-					<div class="btn">
-						<div class="lines"></div>
-					</div>
-				</div>
-			</nav>
-			
-		</header>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+  	<meta http-equiv="x-pjax-version" content="v123">
+  	<title>LOGO</title>
+  	<link rel="stylesheet" href="css/font.css">
+  	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/list.css">
+  	<link rel="stylesheet" href="css/media.css">
+  	<link rel="stylesheet" href="css/fontawesome/all.min.css">
+  	<link rel="stylesheet" href="libs/slick/slick-theme.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="libs/slick/slick.min.js"></script>
+	
 
-           
-            <div class="user-info">
-            	<ul>
-					<li>userinfo1</li>
-					<li>userinfo2</li>
-					<li>userinfo3</li>
-					<li>userinfo4</li>
-					<li>userinfo5</li>
-				</ul>
-            </div>
-			<div class="menu">
-				<ul>
-					<li>text1</li>
-					<li>text2</li>
-					<li>text3</li>
-					<li>text4</li>
-					<li>text5</li>
-				</ul>
+</head>
+<body>
+	<header>
+		<div class="center header-height">
+			<i style="font-size: 38px;" class="fad fa-compass"></i>
+	    </div>
+	</header>
+	<div class="wrapper center">
+		<div class="sidebar">
+			<div class="userbar">
+			    <div class="user_data">
+			    	<!-- User data -->
+
+			    	<div class="user_check">
+			    		
+			    		<div class="user_img">
+			    			<img src="img/TAXO.png" alt="">
+			    		</div>
+			    		
+			    		<div class="user_info">
+			    			<p>Акылбеков Амантур</p>
+			    			<p>BMW E34 AMG</p>
+			    			<p>Tcoin: 10</p>
+			    		</div>
+			    	</div>
+
+			    	<!-- <div class="guest">
+			    		<div class="reg">
+			    			<a href="#">Войти</a>
+			    		</div>
+			    		<div class="reg">
+			    			<a href="#">Регистрация</a>
+			    		</div>
+			    	</div> -->
+
+
+			    </div>
+				<div class="profile">
+					<a href="#" class="li">
+						<span class="icon_i"><i class="fad fa-address-card"></i></span>
+			    		<span class="text_i">Профиль</span>
+					</a>
+				</div>
+			    <div class="tabs">
+			    	<a href="#" class="li">
+			    		<span class="icon_i"><i class="fad fa-car-side"></i></span>
+			    		<span class="text_i">Такси</span>
+			    	</a>
+
+			    	<a href="#" class="li">
+			    		<span class="icon_i"><i class="fad fa-shuttle-van"></i></span>
+			    		<span class="text_i">Маршрутки</span>
+			    	</a>
+
+			    	<a href="#" class="li">
+			    		<span class="icon_i"><i class="fad fa-shipping-fast"></i></span>
+			    		<span class="text_i">Курьер</span>
+			    	</a>
+
+			    	<a href="#" class="li">
+			    		<span class="icon_i"><i class="fad fa-shuttle-van"></i></span>
+			    		<span class="text_i">Маршрутки на заказ</span>
+			    	</a>
+			    </div>
+			</div>
+		</div>
+		<div class="content" >
+			<div class="checker">
+				<form class="region">
+					<select name="start">
+						<option value="all">Все регионы</option>
+						<option value="chui">Чуй</option>
+						<option value="osh">Ош</option>
+						<option value="yssyk-kul">Ыссык-Куль</option>
+						<option value="naryn">Нарын</option>
+						<option value="talas">Талас</option>
+						<option value="djalal-abad">Джалал-Абад</option>
+						<option value="batken">Баткен</option>
+				    </select>
+					<svg  fill="#fff" width="10px" height="10px"  version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+					 viewBox="0 0 512.008 512.008" style="enable-background:new 0 0 512.008 512.008;" xml:space="preserve">
+						<g>
+							<g>
+								<path fill="white" d="M500.208,236.915L30.875,2.248C22.32-2.019,11.952-0.099,5.51,7.048c-6.443,7.125-7.317,17.643-2.176,25.749
+									l142.037,223.211L3.334,479.219c-5.141,8.107-4.267,18.624,2.176,25.749c4.139,4.608,9.941,7.04,15.829,7.04
+									c3.243,0,6.507-0.725,9.536-2.24l469.333-234.667c7.232-3.627,11.797-11.008,11.797-19.093S507.44,240.541,500.208,236.915z"/>
+							</g>
+						</g>
+						
+				</svg>
+				<select name="finish">
+					<option value="all">Все регионы</option>
+					<option value="chui">Чуй</option>
+					<option value="osh">Ош</option>
+					<option value="yssyk-kul">Ыссык-Куль</option>
+					<option value="naryn">Нарын</option>
+					<option value="talas">Талас</option>
+					<option value="djalal-abad">Джалал-Абад</option>
+					<option value="batken">Баткен</option>
+				</select>
+									<button><svg width="15" height="15" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path d="M28 28L20.3378 20.3378M20.3378 20.3378C22.1757 18.4999 23.3125 15.9608 23.3125 13.1562C23.3125 7.54711 18.7654 3 13.1562 3C7.54711 3 3 7.54711 3 13.1562C3 18.7654 7.54711 23.3125 13.1562 23.3125C15.9608 23.3125 18.4999 22.1757 20.3378 20.3378Z" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+				</svg></button>
+								</form>
 			</div>
 
 
-		<div class="main">
-			<ul>
-				<li>main1</li>
-				<li>main2</li>
-				<li>main3</li>
-				<li>main4</li>
-				<li>main5</li>
-				<li>main6</li>
-				<li>main7</li>
-				<li>main8</li>
-				<li>main9</li>
-				<li>main10</li>
-			</ul>
+
+
+			<div class="list">
+				<div class="objects bgcolor">
+		             <div class="slider_list">
+		               <img src="https://i5.photo.2gis.com/images/branch/88/12384899017619055_3fd1.jpg" alt="">
+		               <img src="https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&amp;cs=tinysrgb&amp;fit=crop&amp;h=627&amp;w=1200" alt="">
+		               <img src="https://avatars.mds.yandex.net/get-pdb/1366512/db4715b8-b769-4114-94a6-634e67235e06/s1200" alt="">
+		         	  </div>
+		          	 <div class="check_list">
+		          	 	<i style="color: blue;" class="fad fa-badge-check"></i>
+		          	 	<i style="color: green;"  class="fad fa-shield"></i>
+		          	 </div>
+		          	 <div class="data_list">
+		          	 	<div class="list_icon"><i class="fad fa-map-signs"></i></div>
+		          	 	<div class="list_text"><p>Бишкек → Ош</p></div>
+		          	 </div>
+		          	 <div class="data_list">
+		          	 	<div class="list_icon"><i class="fad fa-hashtag cblue"></i></div>
+		          	 	<div class="list_text bg_text"><p>Ош, Алай, Ноокат, Кулчо, jnejefw, wqwfeqwf, ewfewf, feeew</p></div>
+		          	 </div>
+		          	 <div class="data_list">
+		          	 	<div class="list_icon"><i class="fad fa-taxi cyellow"></i></i></div>
+		          	 	<div class="list_text"><p>Mersedes-Bens E 500</p></div>
+		          	 </div>
+		          	 <div class="data_list">
+		          	 	<div class="list_icon" style="padding-top: 5px "><i class="fad fa-phone-alt"></i></div>
+		          	 	<div class="list_text "><a href="tel:+996777667788" style="text-decoration: none; color: #00FFB0;"><p style="width: 150px;padding: 5px 10px;background: #103c79;border-radius: 5px;">+996 777 00 00 00</a></div>
+		          	 </div>
+		       	</div>
+			</div>
+		
+			<div class="list">
+				<div class="objects bgcolor">
+		             <div class="slider_list">
+		               <img src="https://i5.photo.2gis.com/images/branch/88/12384899017619055_3fd1.jpg" alt="">
+		               <img src="https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&amp;cs=tinysrgb&amp;fit=crop&amp;h=627&amp;w=1200" alt="">
+		               <img src="https://avatars.mds.yandex.net/get-pdb/1366512/db4715b8-b769-4114-94a6-634e67235e06/s1200" alt="">
+		         	  </div>
+		          	 <div class="check_list">
+		          	 	<i style="color: blue;" class="fad fa-badge-check"></i>
+		          	 	<i style="color: green;"  class="fad fa-shield"></i>
+		          	 </div>
+		          	 <div class="data_list">
+		          	 	<div class="list_icon"><i class="fad fa-map-signs"></i></div>
+		          	 	<div class="list_text"><p>Бишкек → Ош</p></div>
+		          	 </div>
+		          	 <div class="data_list">
+		          	 	<div class="list_icon"><i class="fad fa-hashtag cblue"></i></div>
+		          	 	<div class="list_text bg_text"><p>Ош, Алай, Ноокат, Кулчо, jnejefw, wqwfeqwf, ewfewf, feeew</p></div>
+		          	 </div>
+		          	 <div class="data_list">
+		          	 	<div class="list_icon"><i class="fad fa-taxi cyellow"></i></i></div>
+		          	 	<div class="list_text"><p>Mersedes-Bens E 500</p></div>
+		          	 </div>
+		          	 <div class="data_list">
+		          	 	<div class="list_icon" style="padding-top: 5px "><i class="fad fa-phone-alt"></i></div>
+		          	 	<div class="list_text "><p style="width: 150px;padding: 5px;background: #103c79;border-radius: 5px;">+996 777 00 00 00</p></div>
+		          	 </div>
+		       	</div>
+			</div>
+
+			<div class="list">
+				<div class="objects bgcolor">
+		             <div class="slider_list">
+		               <img src="https://i5.photo.2gis.com/images/branch/88/12384899017619055_3fd1.jpg" alt="">
+		               <img src="https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&amp;cs=tinysrgb&amp;fit=crop&amp;h=627&amp;w=1200" alt="">
+		               <img src="https://avatars.mds.yandex.net/get-pdb/1366512/db4715b8-b769-4114-94a6-634e67235e06/s1200" alt="">
+		         	  </div>
+		          	 <div class="check_list">
+		          	 	<i style="color: blue;" class="fad fa-badge-check"></i>
+		          	 	<i style="color: green;"  class="fad fa-shield"></i>
+		          	 </div>
+		          	 <div class="data_list">
+		          	 	<div class="list_icon"><i class="fad fa-map-signs"></i></div>
+		          	 	<div class="list_text"><p>Бишкек → Ош</p></div>
+		          	 </div>
+		          	 <div class="data_list">
+		          	 	<div class="list_icon"><i class="fad fa-hashtag cblue"></i></div>
+		          	 	<div class="list_text bg_text"><p>Ош, Алай, Ноокат, Кулчо, jnejefw, wqwfeqwf, ewfewf, feeew</p></div>
+		          	 </div>
+		          	 <div class="data_list">
+		          	 	<div class="list_icon"><i class="fad fa-taxi cyellow"></i></i></div>
+		          	 	<div class="list_text"><p>Mersedes-Bens E 500</p></div>
+		          	 </div>
+		          	 <div class="data_list">
+		          	 	<div class="list_icon" style="padding-top: 5px "><i class="fad fa-phone-alt"></i></div>
+		          	 	<div class="list_text "><p style="width: 150px;padding: 5px;background: #103c79;border-radius: 5px;">+996 777 00 00 00</p></div>
+		          	 </div>
+		       	</div>
+			</div>
+
+			<div class="list">
+				<div class="objects bgcolor">
+		             <div class="slider_list">
+		               <img src="https://i5.photo.2gis.com/images/branch/88/12384899017619055_3fd1.jpg" alt="">
+		               <img src="https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&amp;cs=tinysrgb&amp;fit=crop&amp;h=627&amp;w=1200" alt="">
+		               <img src="https://avatars.mds.yandex.net/get-pdb/1366512/db4715b8-b769-4114-94a6-634e67235e06/s1200" alt="">
+		         	  </div>
+		          	 <div class="check_list">
+		          	 	<i style="color: blue;" class="fad fa-badge-check"></i>
+		          	 	<i style="color: green;"  class="fad fa-shield"></i>
+		          	 </div>
+		          	 <div class="data_list">
+		          	 	<div class="list_icon"><i class="fad fa-map-signs"></i></div>
+		          	 	<div class="list_text"><p>Бишкек → Ош</p></div>
+		          	 </div>
+		          	 <div class="data_list">
+		          	 	<div class="list_icon"><i class="fad fa-hashtag cblue"></i></div>
+		          	 	<div class="list_text bg_text"><p>Ош, Алай, Ноокат, Кулчо, jnejefw, wqwfeqwf, ewfewf, feeew</p></div>
+		          	 </div>
+		          	 <div class="data_list">
+		          	 	<div class="list_icon"><i class="fad fa-taxi cyellow"></i></i></div>
+		          	 	<div class="list_text"><p>Mersedes-Bens E 500</p></div>
+		          	 </div>
+		          	 <div class="data_list">
+		          	 	<div class="list_icon" style="padding-top: 5px "><i class="fad fa-phone-alt"></i></div>
+		          	 	<div class="list_text "><p style="width: 150px;padding: 5px;background: #103c79;border-radius: 5px;">+996 777 00 00 00</p></div>
+		          	 </div>
+		       	</div>
+			</div>
+
+			<div class="list">
+				<div class="objects bgcolor">
+		             <div class="slider_list">
+		               <img src="https://i5.photo.2gis.com/images/branch/88/12384899017619055_3fd1.jpg" alt="">
+		               <img src="https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&amp;cs=tinysrgb&amp;fit=crop&amp;h=627&amp;w=1200" alt="">
+		               <img src="https://avatars.mds.yandex.net/get-pdb/1366512/db4715b8-b769-4114-94a6-634e67235e06/s1200" alt="">
+		         	  </div>
+		          	 <div class="check_list">
+		          	 	<i style="color: blue;" class="fad fa-badge-check"></i>
+		          	 	<i style="color: green;"  class="fad fa-shield"></i>
+		          	 </div>
+		          	 <div class="data_list">
+		          	 	<div class="list_icon"><i class="fad fa-map-signs"></i></div>
+		          	 	<div class="list_text"><p>Бишкек → Ош</p></div>
+		          	 </div>
+		          	 <div class="data_list">
+		          	 	<div class="list_icon"><i class="fad fa-hashtag cblue"></i></div>
+		          	 	<div class="list_text bg_text"><p>Ош, Алай, Ноокат, Кулчо, jnejefw, wqwfeqwf, ewfewf, feeew</p></div>
+		          	 </div>
+		          	 <div class="data_list">
+		          	 	<div class="list_icon"><i class="fad fa-taxi cyellow"></i></i></div>
+		          	 	<div class="list_text"><p>Mersedes-Bens E 500</p></div>
+		          	 </div>
+		          	 <div class="data_list">
+		          	 	<div class="list_icon" style="padding-top: 5px "><i class="fad fa-phone-alt"></i></div>
+		          	 	<div class="list_text "><p style="width: 150px;padding: 5px;background: #103c79;border-radius: 5px;">+996 777 00 00 00</p></div>
+		          	 </div>
+		       	</div>
+			</div>
+
+			<div class="list">
+				<div class="objects bgcolor">
+		             <div class="slider_list">
+		               <img src="https://i5.photo.2gis.com/images/branch/88/12384899017619055_3fd1.jpg" alt="">
+		               <img src="https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&amp;cs=tinysrgb&amp;fit=crop&amp;h=627&amp;w=1200" alt="">
+		               <img src="https://avatars.mds.yandex.net/get-pdb/1366512/db4715b8-b769-4114-94a6-634e67235e06/s1200" alt="">
+		         	  </div>
+		          	 <div class="check_list">
+		          	 	<i style="color: blue;" class="fad fa-badge-check"></i>
+		          	 	<i style="color: green;"  class="fad fa-shield"></i>
+		          	 </div>
+		          	 <div class="data_list">
+		          	 	<div class="list_icon"><i class="fad fa-map-signs"></i></div>
+		          	 	<div class="list_text"><p>Бишкек → Ош</p></div>
+		          	 </div>
+		          	 <div class="data_list">
+		          	 	<div class="list_icon"><i class="fad fa-hashtag cblue"></i></div>
+		          	 	<div class="list_text bg_text"><p>Ош, Алай, Ноокат, Кулчо, jnejefw, wqwfeqwf, ewfewf, feeew</p></div>
+		          	 </div>
+		          	 <div class="data_list">
+		          	 	<div class="list_icon"><i class="fad fa-taxi cyellow"></i></i></div>
+		          	 	<div class="list_text"><p>Mersedes-Bens E 500</p></div>
+		          	 </div>
+		          	 <div class="data_list">
+		          	 	<div class="list_icon" style="padding-top: 5px "><i class="fad fa-phone-alt"></i></div>
+		          	 	<div class="list_text "><p style="width: 150px;padding: 5px;background: #103c79;border-radius: 5px;">+996 777 00 00 00</p></div>
+		          	 </div>
+		       	</div>
+			</div>
+
+			<div class="list">
+				<div class="objects bgcolor">
+		             <div class="slider_list">
+		               <img src="https://i5.photo.2gis.com/images/branch/88/12384899017619055_3fd1.jpg" alt="">
+		               <img src="https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&amp;cs=tinysrgb&amp;fit=crop&amp;h=627&amp;w=1200" alt="">
+		               <img src="https://avatars.mds.yandex.net/get-pdb/1366512/db4715b8-b769-4114-94a6-634e67235e06/s1200" alt="">
+		         	  </div>
+		          	 <div class="check_list">
+		          	 	<i style="color: blue;" class="fad fa-badge-check"></i>
+		          	 	<i style="color: green;"  class="fad fa-shield"></i>
+		          	 </div>
+		          	 <div class="data_list">
+		          	 	<div class="list_icon"><i class="fad fa-map-signs"></i></div>
+		          	 	<div class="list_text"><p>Бишкек → Ош</p></div>
+		          	 </div>
+		          	 <div class="data_list">
+		          	 	<div class="list_icon"><i class="fad fa-hashtag cblue"></i></div>
+		          	 	<div class="list_text bg_text"><p>Ош, Алай, Ноокат, Кулчо, jnejefw, wqwfeqwf, ewfewf, feeew</p></div>
+		          	 </div>
+		          	 <div class="data_list">
+		          	 	<div class="list_icon"><i class="fad fa-taxi cyellow"></i></i></div>
+		          	 	<div class="list_text"><p>Mersedes-Bens E 500</p></div>
+		          	 </div>
+		          	 <div class="data_list">
+		          	 	<div class="list_icon" style="padding-top: 5px "><i class="fad fa-phone-alt"></i></div>
+		          	 	<div class="list_text "><p style="width: 150px;padding: 5px;background: #103c79;border-radius: 5px;">+996 777 00 00 00</p></div>
+		          	 </div>
+		       	</div>
+			</div>
+
+			<div class="list">
+				<div class="objects bgcolor">
+		             <div class="slider_list">
+		               <img src="https://i5.photo.2gis.com/images/branch/88/12384899017619055_3fd1.jpg" alt="">
+		               <img src="https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&amp;cs=tinysrgb&amp;fit=crop&amp;h=627&amp;w=1200" alt="">
+		               <img src="https://avatars.mds.yandex.net/get-pdb/1366512/db4715b8-b769-4114-94a6-634e67235e06/s1200" alt="">
+		         	  </div>
+		          	 <div class="check_list">
+		          	 	<i style="color: blue;" class="fad fa-badge-check"></i>
+		          	 	<i style="color: green;"  class="fad fa-shield"></i>
+		          	 </div>
+		          	 <div class="data_list">
+		          	 	<div class="list_icon"><i class="fad fa-map-signs"></i></div>
+		          	 	<div class="list_text"><p>Бишкек → Ош</p></div>
+		          	 </div>
+		          	 <div class="data_list">
+		          	 	<div class="list_icon"><i class="fad fa-hashtag cblue"></i></div>
+		          	 	<div class="list_text bg_text"><p>Ош, Алай, Ноокат, Кулчо, jnejefw, wqwfeqwf, ewfewf, feeew</p></div>
+		          	 </div>
+		          	 <div class="data_list">
+		          	 	<div class="list_icon"><i class="fad fa-taxi cyellow"></i></i></div>
+		          	 	<div class="list_text"><p>Mersedes-Bens E 500</p></div>
+		          	 </div>
+		          	 <div class="data_list">
+		          	 	<div class="list_icon" style="padding-top: 5px "><i class="fad fa-phone-alt"></i></div>
+		          	 	<div class="list_text "><p style="width: 150px;padding: 5px;background: #103c79;border-radius: 5px;">+996 777 00 00 00</p></div>
+		          	 </div>
+		       	</div>
+			</div>
+
+			
+			<div class="clearfixed"></div>
+			<div class="loading">
+				<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" width="162px" height="15px" viewBox="0 0 512 47" xml:space="preserve"><rect x="0" y="0" width="100%" height="100%" fill="#FFFFFF" /><g><circle fill="##262F56" fill-opacity="1" cx="-14.781" cy="22.328" r="12.813"/><animateTransform attributeName="transform" type="translate" values="88 0;182 0;251 0;298 0;321 0;323.33 0;325.66 0;327.99 0;330.32 0;332.65 0;334.98 0;337.31 0;339.64 0;341.97 0;344.3 0;346.63 0;348.96 0;351.29 0;353.62 0;356 0;379 0;426 0;494 0;542 0;542 0;542 0;542 0;542 0;542 0;542 0;542 0;542 0;542 0;542 0;542 0;542 0;542 0;542 0" dur="3330ms" repeatCount="indefinite"/></g><g><circle fill="#262F56" fill-opacity="1" cx="-50.328" cy="22.328" r="12.797"/><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 0;0 0;0 0;88 0;182 0;251 0;298 0;321 0;323.33 0;325.66 0;327.99 0;330.32 0;332.65 0;334.98 0;337.31 0;339.64 0;341.97 0;344.3 0;346.63 0;348.96 0;351.29 0;353.62 0;356 0;406 0;452 0;522 0;577 0;577 0;577 0;577 0;577 0;577 0;577 0;577 0;577 0;577 0" dur="3330ms" repeatCount="indefinite"/></g><g><circle fill="#262F56" fill-opacity="1" cx="-87.203" cy="22.328" r="12.797"/><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 0;0 0;0 0;0 0;0 0;0 0;0 0;0 0;88 0;182 0;251 0;298 0;321 0;323.33 0;325.66 0;327.99 0;330.32 0;332.65 0;334.98 0;337.31 0;339.64 0;341.97 0;344.3 0;346.63 0;348.96 0;351.29 0;353.62 0;356 0;403 0;450 0;520 0;614 0;614 0;614 0;614 0;614 0;614 0" dur="3330ms" repeatCount="indefinite"/></g><g><circle fill="#262F56" fill-opacity="1" cx="-125.234" cy="22.328" r="12.797"/><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 0;0 0;0 0;0 0;0 0;0 0;0 0;0 0;0 0;0 0;0 0;0 0;0 0;88 0;182 0;251 0;298 0;321 0;323.33 0;325.66 0;327.99 0;330.32 0;332.65 0;334.98 0;337.31 0;339.64 0;341.97 0;344.3 0;346.63 0;348.96 0;351.29 0;353.62 0;356 0;402 0;448 0;518 0;611 0" dur="3330ms" repeatCount="indefinite"/></g></svg>
+			</div>
+			
+
 		</div>
+	</div>
+
+	    <div class="muser" >
+		    <div class="muserbar">
+			    <div class="userbar">
+			    <div class="user_data">
+			    	<!-- User data -->
+
+			    	<div class="user_check">
+			    		
+			    		<div class="user_img">
+			    			<img src="img/TAXO.png" alt="">
+			    		</div>
+			    		
+			    		<div class="user_info">
+			    			<p>Акылбеков Амантур</p>
+			    			<p>BMW E34 AMG</p>
+			    			<p>Tcoin: 10</p>
+			    		</div>
+			    	</div>
+
+			    	<!-- <div class="guest">
+			    		<div class="reg">
+			    			<a href="#">Войти</a>
+			    		</div>
+			    		<div class="reg">
+			    			<a href="#">Регистрация</a>
+			    		</div>
+			    	</div> -->
+
+
+			    </div>
+				<div class="profile">
+					<a href="#" class="li">
+						<span class="icon_i"><i class="fad fa-address-card"></i></span>
+			    		<span class="text_i">Профиль</span>
+					</a>
+				</div>
+			    <div class="tabs">
+			    	<a href="#" class="li">
+			    		<span class="icon_i"><i class="fad fa-car-side"></i></span>
+			    		<span class="text_i">Такси</span>
+			    	</a>
+
+			    	<a href="#" class="li">
+			    		<span class="icon_i"><i class="fad fa-shuttle-van"></i></span>
+			    		<span class="text_i">Маршрутки</span>
+			    	</a>
+
+			    	<a href="#" class="li">
+			    		<span class="icon_i"><i class="fad fa-shipping-fast"></i></span>
+			    		<span class="text_i">Курьер</span>
+			    	</a>
+
+			    	<a href="#" class="li">
+			    		<span class="icon_i"><i class="fad fa-shuttle-van"></i></span>
+			    		<span class="text_i">Маршрутки на заказ</span>
+			    	</a>
+			    </div>
+			</div>
+		    </div>
+	    </div>
+		
+
+
+		<div class="barchik">
+         <div class="links"><a href="#" data-class="active_link">
+         	<svg width="19" height="20" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M18 16V10.5925C18 8.82374 18 7.93935 17.649 7.15764C17.2979 6.37593 16.6369 5.78837 15.3149 4.61325L14.3149 3.72437C11.7855 1.476 10.5208 0.35182 9 0.35182C7.4792 0.35182 6.2145 1.476 3.68509 3.72437L2.68509 4.61325C1.36308 5.78837 0.70208 6.37593 0.35104 7.15764C0 7.93935 0 8.82374 0 10.5925V16C0 16.9319 0 17.3978 0.152241 17.7654C0.355229 18.2554 0.744577 18.6448 1.23463 18.8478C1.60218 19 2.06812 19 3 19H3.33333C3.95331 19 4.26331 19 4.51764 18.9319C5.20782 18.7469 5.74692 18.2078 5.93185 17.5176C6 17.2633 6 16.9533 6 16.3333V14C6 12.3431 7.34315 11 9 11C10.6569 11 12 12.3431 12 14V16.3333C12 16.9533 12 17.2633 12.0681 17.5176C12.2531 18.2078 12.7922 18.7469 13.4824 18.9319C13.7367 19 14.0467 19 14.6667 19H15C15.9319 19 16.3978 19 16.7654 18.8478C17.2554 18.6448 17.6448 18.2554 17.8478 17.7654C18 17.3978 18 16.9319 18 16Z" fill="#262F56"/>
+</svg>
+
+         	<p>лента</p></a></div>
+         <div class="links"><a href="#">
+         	<svg width="20" height="20" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M28 28L20.3378 20.3378M20.3378 20.3378C22.1757 18.4999 23.3125 15.9608 23.3125 13.1562C23.3125 7.54711 18.7654 3 13.1562 3C7.54711 3 3 7.54711 3 13.1562C3 18.7654 7.54711 23.3125 13.1562 23.3125C15.9608 23.3125 18.4999 22.1757 20.3378 20.3378Z" stroke="#262F56" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+         	<p>поиск</p></a></div>
+         <div class="links"><a href="#">
+         	<svg width="20" height="20" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M36 56C47.0457 56 56 47.0457 56 36C56 24.9543 47.0457 16 36 16C24.9543 16 16 24.9543 16 36C16 47.0457 24.9543 56 36 56Z" fill="#262F56"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M72 36C72 55.8822 55.8822 72 36 72C16.1177 72 0 55.8822 0 36C0 16.1177 16.1177 0 36 0C55.8822 0 72 16.1177 72 36ZM64 36C64 51.464 51.464 64 36 64C20.536 64 8 51.464 8 36C8 20.536 20.536 8 36 8C51.464 8 64 20.536 64 36Z" fill="#262F56"/>
+</svg>
+
+         	<p style="visibility: hidden"></p></a></div>
+         <div class="links"><a href="#">
+         	<svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="2" y="2" width="9" height="9" rx="2" fill="#262F56"/>
+<rect x="13" y="2" width="9" height="9" rx="2" fill="#262F56"/>
+<rect x="2" y="13" width="9" height="9" rx="2" fill="#262F56"/>
+<rect x="13" y="13" width="9" height="9" rx="2" fill="#262F56"/>
+</svg>
+
+         	<p>надёжные</p></a></div>
+         <div class="links">
+         	<a href="#" class="btn-menu">
+         		<svg width="24" height="24" viewBox="0 0 24 24" style="margin-top: -5px" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 21H21" stroke="#262F56" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M4 14H21" stroke="#262F56" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M4 7H21" stroke="#262F56" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+
+         		<p>меню</p>
+         	</a>
+         		
+         	</div>
+    </div>
+
+
+
+	
+    <script src="js/main.js"></script>
 </body>
 </html>
+
